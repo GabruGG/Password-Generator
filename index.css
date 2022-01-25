@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(160, 116, 201);
+}
+.main-container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(2, 2, 65);
+    color: white;
+    height: 450px;
+    width: 350px;
+    padding: 9px;
+    border-radius: 5px;
+}
+.slider{
+    border-radius: 12px;
+    height: 3px;
+    width: 85%;
+}
+
+.select-length{
+    width: 100%;
+    background-color: rgb(36, 36, 112);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.click-generate{
+    width: 100%;
+    background-color: rgb(36, 36, 112);
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setting{
+    margin-bottom: 0px;
+}
+.length{
+    font-size: medium;
+}
+
+.include{
+    width: 100%;
+    background-color: rgb(36, 36, 112);
+    height: 30px;
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.generate-password{
+    width: 100%;
+    height: 33px;
+    border-radius: 3px;
+    border-style: none;
+    margin-top: 22px;
+    color: white;
+    cursor: pointer;
+    background-color: blueviolet;
+}
